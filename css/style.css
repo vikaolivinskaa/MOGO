@@ -1,0 +1,19 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #b6b6b6;
+}
+.logo {
+  font-weight: 700;
+  font-size: 30px;
+  color: #95e1d3;
+  text-decoration: none;
+}
+.nav-link {
+  color: #95e1d3;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: #f38181;
+}
