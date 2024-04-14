@@ -1,19 +1,136 @@
+:root {
+  --ColorTextPrimery: #b6b6b6;
+  --colorTextTertiary: #95e1d3;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
-  color: #b6b6b6;
+  color: var(--ColorTextPrimery);
+}
+.container {
+  max-width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  display: block;
+  width: 100%;
+}
+.header {
+  padding: 17px;
+  padding-bottom: 80px;
+}
+.header-conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .logo {
   font-weight: 700;
   font-size: 30px;
-  color: #95e1d3;
-  text-decoration: none;
+}
+.nav-list {
+  display: flex;
+  gap: 55px;
+  align-items: center;
 }
 .nav-link {
-  color: #95e1d3;
-  text-decoration: none;
+  color: var(--colorTextTertiary);
 }
 .nav-link:hover {
   color: #f38181;
+}
+.servises {
+  padding-bottom: 100px;
+}
+.servise-title {
+  font-weight: 700;
+  font-size: 30px;
+  font-variant: all-small-caps;
+  text-align: center;
+  margin-bottom: 65px;
+}
+.servise-cards {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 100px;
+  justify-content: space-between;
+}
+.servise {
+  flex-basis: calc((100% - 140) / 3);
+}
+.servise-heading {
+  display: flex;
+  gap: 20px;
+}
+.servise-text {
+  color: var(--ColorTextPrimery);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.47;
+  padding-left: 57px;
+}
+.team {
+  padding-bottom: 80px;
+}
+.team-title {
+  font-size: 30px;
+  font-weight: 700;
+  font-variant: all-small-caps;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.team-text {
+  color: var(--ColorTextPrimery);
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 27px;
+}
+.team-members {
+  display: flex;
+  gap: 30px;
+}
+.teammete {
+  flex-basis: calc((100% - 60px) / 3);
+}
+.teammete-photo {
+  margin-bottom: 30px;
+}
+.teammete-name {
+  font-variant: all-small-caps;
+  text-align: center;
+  margin-bottom: 11px;
+}
+.teammete-role {
+  color: var(--ColorTextPrimery);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: center;
+}
+.footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.subscribe {
+  display: flex;
+}
+.subscribe-mail {
+  padding: 12px 10px;
+}
+.subscribe-button {
+  font-size: 14px;
+  font-weight: 700;
+  font-variant: all-small-caps;
+  padding: 12px 38px;
+  text-align: center;
 }
